@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/40e49628d4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 id="abdul"><span>A</span>RA..</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>ASPIRING SOFTWARE DEVELOPER</p>
+                <h1>Hi, I'm <span>Abdul Rahman Anas</span> <br>From India</h1>
+            </div>
+        </div>
+    </div> 
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/download__9_-removebg-preview.png" alt="Abdul">
+                </div>
+                <div class="about-col-2">
+                    <h1 id="sub-title">About Me</h1>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>DATA STRUCTURES AND ALGORITHMS<br></span>LEETCODE-GEEKS FOR GEEKS</li>
+                            <li><span>C /JAVA<br></span>PROGRAMMING LANGUAGES</li>
+                            <li><span>FRONTEND DEVELOPMENT<br></span>MERN STACK</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>JAYARANI MATRIC SCHOOL(10TH),PDK<br></span>94.6%</li>
+                            <li><span>VAIRAMS MATRIC SCHOOL(12TH)PDK<br></span>87.77%</li>
+                            <li><span><br>BANNARI AMMAN INSTITUTE OF TECHNOLOGY,ERODE<br></span>BIOMEDICAL ENGINEERING<br>CGPA:7.88</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 id="sub-title">MY PROJECTS</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>WEB DEVELOPMENT </h2>
+                    <p>I created a website for an inventory system to manage farm stock production, as well as a personal portfolio website. </p>
+                    <a href="https://github.com/AbdulRahmanAnasA?tab=repositories">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>BIOMEDICAL PROJECTS</h2>
+                    <p> I completed a project involving a saline monitoring system using AI, a touchless hand sanitizer and  ECG machine, and other electronic projects like the smart turf system..</p>
+                    <a href="https://github.com/AbdulRahmanAnasA?tab=repositories">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>REAL TIME PROJECTS</h2>
+                    <p>I am currently developing an Android app for the smart turf system.</p>
+                    <a href="https://github.com/AbdulRahmanAnasA?tab=repositories">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 id="sub-title">MY WORK</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="Social Media Website">
+                    <div class="layer">
+                        <h3>Attending Technical competition</h3>
+                        <p>Participating in hackathons and technical competitions has challenged me, enabled collaboration with like-minded individuals, and allowed me to rapidly prototype innovative solutions under time constraints.</p>
+                        <a href="https://www.linkedin.com/posts/abdulrahmananas123456_bithackathon-ecgmonitor-hackathonfinalist-activity-7162505322266308608-1rN1?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="Portfolio Website">
+                    <div class="layer">
+                        <h3>Online courses and Internship</h3>
+                        <p>Attending online courses and completing internships has significantly enriched my knowledge and skills. These experiences have provided practical insights, hands-on learning opportunities, and valuable industry exposure, enabling me to apply theoretical concepts to real-world challenges effectively.</p>
+                        <a href="https://www.linkedin.com/in/abdulrahmananas123456/details/certifications/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="Learning New Websites">
+                    <div class="layer">
+                        <h3>Learning New Skills</h3>
+                        <p>Constantly learning new skills has been a vital part of my professional development. I am committed to expanding my knowledge and staying updated with the latest advancements in technology and industry trends.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>abdulrahmananas.bm22@bitsathy.ac.in </p>
+                    <p><i class="fa-solid fa-paper-plane"></i>abdulrahmananas78dvl@gmail.com </p>
+                    <p><i class="fa-solid fa-square-phone"></i>9087515219</p>
+                    <div class="social-icons">
+                        
+                        <a href="https://github.com/AbdulRahmanAnasA"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/abdulrahmananas123456/"><i class="fa-brands fa-linkedin"></i></a>
+                       
+                    </div>
+                    <a href="/Abdul RESUME (1) (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your Mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © ARA. made with by <i class="fa-solid fa-heart"></i>Abdul rahman Anas A</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxG6i5OAbOVUx1v8YSlr1IMDlYvtgtBpIsf2aPlecybyYD8ifB-rxvq9Jh7JEw-ZztADw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(() => {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
